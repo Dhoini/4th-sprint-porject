@@ -45,8 +45,7 @@ func meanSpeed(action int, duration float64) float64 {
 	if duration == 0 {
 		return 0
 	}
-	distance := distance(action)
-	return distance / duration
+	return distance(action) / duration
 }
 
 // ShowTrainingInfo возвращает строку с информацией о тренировке.
